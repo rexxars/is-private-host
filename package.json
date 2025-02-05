@@ -74,22 +74,5 @@
     "printWidth": 100,
     "semi": false,
     "singleQuote": true
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaFeatures": {
-        "modules": true
-      },
-      "ecmaVersion": 9,
-      "sourceType": "module"
-    },
-    "extends": [
-      "sanity",
-      "sanity/typescript",
-      "prettier"
-    ],
-    "ignorePatterns": [
-      "lib/**/"
-    ]
   }
 }

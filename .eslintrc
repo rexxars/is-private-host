@@ -1,0 +1,17 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  },
+  "extends": [
+    "sanity",
+    "sanity/typescript",
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "lib/**/"
+  ]
+}
