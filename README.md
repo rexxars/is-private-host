@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/is-private-host.svg?style=flat-square)](https://www.npmjs.com/package/is-private-host)[![npm bundle size](https://img.shields.io/bundlephobia/minzip/is-private-host?style=flat-square)](https://bundlephobia.com/result?p=is-private-host)[![npm weekly downloads](https://img.shields.io/npm/dw/is-private-host.svg?style=flat-square)](https://www.npmjs.com/package/is-private-host)
 
-Determines if a URL or hostname resolves to a "private" IP, for instance `127.0.0.1`, `192.168.x.x`, `::1` or similar.
+Determines if a URL or hostname resolves to a "private" IP, for instance `127.0.0.1`, `192.168.x.x`, `::1` or similar. Can also be used to check a specific IP.
 
 > [!CAUTION]
 > It is not safe to cache the results for long - a host may change their DNS records to point to a private IP immediately after a lookup, theoretically.
