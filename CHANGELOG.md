@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/rexxars/is-private-host/compare/v1.0.1...v1.0.2) (2025-02-05)
+
+### Bug Fixes
+
+- remove broken badge from readme ([35003f5](https://github.com/rexxars/is-private-host/commit/35003f5ae3fde672b490ad57daa20e164624b46e))
+
 ## [1.0.1](https://github.com/rexxars/is-private-host/compare/v1.0.0...v1.0.1) (2025-02-05)
 
 ### Bug Fixes
