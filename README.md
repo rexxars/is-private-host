@@ -93,6 +93,17 @@ if (isPrivate) {
 }
 ```
 
+### Checking specific IP
+
+```ts
+import {isPrivateIP} from 'is-private-host'
+
+isPrivateIP('127.0.0.1') // `true`
+isPrivateIP('192.168.1.1') // `true`
+isPrivateIP('8.8.8.8') // `false`
+isPrivateIP('foobar') // throws Error, not an IP
+```
+
 ## License
 
 MIT © [Espen Hovlandsdal](https://espen.codes/)

@@ -1,5 +1,6 @@
 import {expect, test} from 'vitest'
-import {isPrivateHost} from '../src/isPrivateHost.js'
+
+import {isPrivateHost} from '../src/index.js'
 
 test('public hosts return `false`', async () => {
   await expect(isPrivateHost('www.google.com')).resolves.toBe(false)

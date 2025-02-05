@@ -30,7 +30,10 @@ export async function isPrivateHost(hostname: string): Promise<boolean>
  * @returns Promise resolving to true if the hostname resolves to a private IP address, false otherwise
  * @public
  */
-export async function isPrivateHost(hostname: string, options: {}): Promise<boolean>
+export async function isPrivateHost(
+  hostname: string,
+  options: Record<string, never>,
+): Promise<boolean>
 
 /**
  * Determines if a the given hostname resolves to a "private" IP address

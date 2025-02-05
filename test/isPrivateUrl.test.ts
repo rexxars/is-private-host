@@ -1,4 +1,5 @@
 import {expect, test} from 'vitest'
+
 import {isPrivateUrl} from '../src/index.js'
 
 test('public urls return `false`', async () => {

@@ -1,5 +1,6 @@
 import type {LookupAddress} from 'node:dns'
-import {isPrivateHost, type HostResolveInfo} from './isPrivateHost.js'
+
+import {type HostResolveInfo, isPrivateHost} from './isPrivateHost.js'
 
 /**
  * Resolve result for a given URL
@@ -29,7 +30,7 @@ export async function isPrivateUrl(url: string): Promise<boolean>
  * @returns Promise resolving to true if the URL resolves to a private IP address, false otherwise
  * @public
  */
-export async function isPrivateUrl(url: string, options: {}): Promise<boolean>
+export async function isPrivateUrl(url: string, options: Record<string, never>): Promise<boolean>
 
 /**
  * Determines if a the given URL resolves to a "private" IP address

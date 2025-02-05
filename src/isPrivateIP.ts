@@ -1,4 +1,5 @@
-import {parseCIDR, parse as parseIP} from 'ipaddr.js'
+import {parse as parseIP, parseCIDR} from 'ipaddr.js'
+
 import {privateRanges} from './privateRanges.js'
 
 /**
